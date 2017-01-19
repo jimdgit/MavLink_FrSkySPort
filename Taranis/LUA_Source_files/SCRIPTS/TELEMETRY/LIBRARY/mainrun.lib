@@ -99,6 +99,9 @@ local function setUnits()
       speed_multi = 3.6
       speed_units = "kph"
     elseif shvars.speedUnits == 2 then
+      speed_multi = 1.94384
+      speed_units = "kts"
+    elseif shvars.speedUnits == 3 then
       speed_multi = 2.23694
       speed_units = "mph"
     else --assume 0
