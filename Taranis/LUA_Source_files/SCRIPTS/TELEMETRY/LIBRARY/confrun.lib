@@ -20,7 +20,7 @@
 
 -- initialise local vars
 	local fieldMax = 5
-	local speedUnitOpt = {"m/s","kph","mph"}
+	local speedUnitOpt = {"m/s","kph", "kts", "mph"}
 	local altUnitOpt = {"m","f"}
 	local coptPlanOpt = {"Copter","Plane"}
 	local activeField = 0
@@ -150,7 +150,7 @@
       elseif activeField == 4 then
         shvars.offsetwh = valueIncDec(event, shvars.offsetwh, -30, 30, 1)
       elseif activeField == 5 then
-        shvars.whCap = valueIncDec(event, shvars.whCap, 0, 250, 1)
+        shvars.whCap = valueIncDec(event, shvars.whCap, 0, 500, 1)
       end
       writeCfg()
     else

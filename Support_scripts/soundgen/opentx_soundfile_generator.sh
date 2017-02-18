@@ -88,8 +88,10 @@ SOURCE_DIRECTORY="$(dirname $0)"
 #SOURCE_FILE="$(ls $SOURCE_DIRECTORY/OpenTX*.csv)"  # "$(dirname $0)/OpenTX 2.x - Voice and Sound Pack Generator - Definitions - MAIN.csv"  # "$(dirname $0)/SOUNDS/sounds.csv"  # CSV File with the phrases & file names.
 SOURCE_FILE="$1"
 DESTINATION_DIRECTORY_SOUNDS="$SOURCE_DIRECTORY/SOUNDS"
-VOICE="Samantha"
-#VOICE="Anna"
+#VOICE="Fiona"	# en Scottish
+VOICE="Samantha"	# en US voice
+#VOICE="Ava"	#en US voice
+#VOICE="Anna"	# de voice
 LANG="en"		# supported languages: en, de, pt
 #LANG="de"
 #LANG="pt"
@@ -147,20 +149,19 @@ if [ -f "$SOURCE_FILE" ]; then				# Check Soure File
 		echo "$TEXT"
 		say -v "$VOICE" "$TEXT"
 	fi
-echo $LANG
+  echo $LANG
 	echo "================================================================================"
 	checkFolder "$DESTINATION_DIRECTORY_SOUNDS"							# Check Destination Folder
 
 	# Read and proccess CSV file
-	IFS=";"  # File Delimiter
-	while read directory file_name text_to_say_en text_to_say_de text_to_say_pt; do
+	#while read directory file_name text_to_say_en text_to_say_de text_to_say_pt; do
+	while IFS=';' read directory file_name text_to_say_en text_to_say_de; do
 		directory="$LANG/$VOICE$directory"
 		text_to_say[0]="$text_to_say_en"
 		text_to_say[1]="$text_to_say_de"
-		text_to_say[2]="$text_to_say_pt"
-
+	  #	text_to_say[2]="$text_to_say_pt"
 		# Check that varable contain data
-		if [ "$directory" != "Directory" ] && [ -n "$directory" ] && [ -n "$file_name" ] && [ -n "${text_to_say[$i]}" ] && [ "${text_to_say[$i]}" != "NOT_AVAILABLE" ]; then
+		if [ "$directory" != "Path" ] && [ -n "$directory" ] && [ -n "$file_name" ] && [ -n "${text_to_say[$i]}" ] && [ "${text_to_say[$i]}" != "NOT_AVAILABLE" ]; then
 			echo "$DESTINATION_DIRECTORY_SOUNDS/$directory/$file_name.wav\t|\t${text_to_say[$i]}"
 
 			# Check and Create Folder
