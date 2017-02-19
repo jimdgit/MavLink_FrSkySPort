@@ -1,0 +1,309 @@
+Path;FileName;EN;DE
+/SYSTEM;0000;0;
+/SYSTEM;0001;1;
+/SYSTEM;0002;2;
+/SYSTEM;0003;3;
+/SYSTEM;0004;4;
+/SYSTEM;0005;5;
+/SYSTEM;0006;6;
+/SYSTEM;0007;7;
+/SYSTEM;0008;8;
+/SYSTEM;0009;9;
+/SYSTEM;0010;10;
+/SYSTEM;0011;11;
+/SYSTEM;0012;12;
+/SYSTEM;0013;13;
+/SYSTEM;0014;14;
+/SYSTEM;0015;15;
+/SYSTEM;0016;16;
+/SYSTEM;0017;17;
+/SYSTEM;0018;18;
+/SYSTEM;0019;19;
+/SYSTEM;0020;20;
+/SYSTEM;0021;21;
+/SYSTEM;0022;22;
+/SYSTEM;0023;23;
+/SYSTEM;0024;24;
+/SYSTEM;0025;25;
+/SYSTEM;0026;26;
+/SYSTEM;0027;27;
+/SYSTEM;0028;28;
+/SYSTEM;0029;29;
+/SYSTEM;0030;30;
+/SYSTEM;0031;31;
+/SYSTEM;0032;32;
+/SYSTEM;0033;33;
+/SYSTEM;0034;34;
+/SYSTEM;0035;35;
+/SYSTEM;0036;36;
+/SYSTEM;0037;37;
+/SYSTEM;0038;38;
+/SYSTEM;0039;39;
+/SYSTEM;0040;40;
+/SYSTEM;0041;41;
+/SYSTEM;0042;42;
+/SYSTEM;0043;43;
+/SYSTEM;0044;44;
+/SYSTEM;0045;45;
+/SYSTEM;0046;46;
+/SYSTEM;0047;47;
+/SYSTEM;0048;48;
+/SYSTEM;0049;49;
+/SYSTEM;0050;50;
+/SYSTEM;0051;51;
+/SYSTEM;0052;52;
+/SYSTEM;0053;53;
+/SYSTEM;0054;54;
+/SYSTEM;0055;55;
+/SYSTEM;0056;56;
+/SYSTEM;0057;57;
+/SYSTEM;0058;58;
+/SYSTEM;0059;59;
+/SYSTEM;0060;60;
+/SYSTEM;0061;61;
+/SYSTEM;0062;62;
+/SYSTEM;0063;63;
+/SYSTEM;0064;64;
+/SYSTEM;0065;65;
+/SYSTEM;0066;66;
+/SYSTEM;0067;67;
+/SYSTEM;0068;68;
+/SYSTEM;0069;69;
+/SYSTEM;0070;70;
+/SYSTEM;0071;71;
+/SYSTEM;0072;72;
+/SYSTEM;0073;73;
+/SYSTEM;0074;74;
+/SYSTEM;0075;75;
+/SYSTEM;0076;76;
+/SYSTEM;0077;77;
+/SYSTEM;0078;78;
+/SYSTEM;0079;79;
+/SYSTEM;0080;80;
+/SYSTEM;0081;81;
+/SYSTEM;0082;82;
+/SYSTEM;0083;83;
+/SYSTEM;0084;84;
+/SYSTEM;0085;85;
+/SYSTEM;0086;86;
+/SYSTEM;0087;87;
+/SYSTEM;0088;88;
+/SYSTEM;0089;89;
+/SYSTEM;0090;90;
+/SYSTEM;0091;91;
+/SYSTEM;0092;92;
+/SYSTEM;0093;93;
+/SYSTEM;0094;94;
+/SYSTEM;0095;95;
+/SYSTEM;0096;96;
+/SYSTEM;0097;97;
+/SYSTEM;0098;98;
+/SYSTEM;0099;99;
+/SYSTEM;0100;100;
+/SYSTEM;0101;200;
+/SYSTEM;0102;300;
+/SYSTEM;0103;400;
+/SYSTEM;0104;500;
+/SYSTEM;0105;600;
+/SYSTEM;0106;700;
+/SYSTEM;0107;800;
+/SYSTEM;0108;900;
+/SYSTEM;0109;thousand;
+/SYSTEM;0110;and;
+/SYSTEM;0111;minus;
+/SYSTEM;0112;point;
+/SYSTEM;0115;volt;
+/SYSTEM;0116;volts;
+/SYSTEM;0117;amp;
+/SYSTEM;0118;amps;
+/SYSTEM;0119;milliamp;
+/SYSTEM;0120;milliamps;
+/SYSTEM;0121;knot;
+/SYSTEM;0122;knots;
+/SYSTEM;0123;meter per second;
+/SYSTEM;0124;meters per second;
+/SYSTEM;0125;foot per second;
+/SYSTEM;0126;feet per second;
+/SYSTEM;0127;kilometer per hour;
+/SYSTEM;0128;kilometers per hour;
+/SYSTEM;0129;mile per hour;
+/SYSTEM;0130;miles per hour;
+/SYSTEM;0131;meter;
+/SYSTEM;0132;meters;
+/SYSTEM;0133;foot;
+/SYSTEM;0134;feet;
+/SYSTEM;0135;degree celsius;
+/SYSTEM;0136;degrees celsius;
+/SYSTEM;0137;degree fahrenheit;
+/SYSTEM;0138;degrees fahrenheit;
+/SYSTEM;0139;percent;
+/SYSTEM;0140;percent;
+/SYSTEM;0141;milliamp-hour;
+/SYSTEM;0142;milliamp-hours;
+/SYSTEM;0143;watt;
+/SYSTEM;0144;watts;
+/SYSTEM;0145;db;
+/SYSTEM;0146;db;
+/SYSTEM;0147;r p m;
+/SYSTEM;0148;r p m;
+/SYSTEM;0149;g;
+/SYSTEM;0150;g;
+/SYSTEM;0151;degree;
+/SYSTEM;0152;degrees;
+/SYSTEM;0153;milliliter;
+/SYSTEM;0154;milliliters;
+/SYSTEM;0155;fluid ounce;
+/SYSTEM;0156;fluid ounces;
+/SYSTEM;0157;hour;
+/SYSTEM;0158;hours;
+/SYSTEM;0159;minute;
+/SYSTEM;0160;minutes;
+/SYSTEM;0161;second;
+/SYSTEM;0162;seconds;
+/SYSTEM;0165;point zero;
+/SYSTEM;0166;point one;
+/SYSTEM;0167;point two;
+/SYSTEM;0168;point three;
+/SYSTEM;0169;point four;
+/SYSTEM;0170;point five;
+/SYSTEM;0171;point six;
+/SYSTEM;0172;point seven;
+/SYSTEM;0173;point eight;
+/SYSTEM;0174;point nine;
+/SYSTEM;midtrim;trim center;
+/SYSTEM;endtrim;maximum trim reached;
+/SYSTEM;lowbatt;transmitter battery low;
+/SYSTEM;inactiv;inactivity alarm;
+/SYSTEM;thralert;throttle warning;
+/SYSTEM;swalert;switch warning;
+/SYSTEM;eebad;bad eeprom;
+/SYSTEM;tada;Welcome to open tea ex!;
+/SYSTEM;timer20;twenty. seconds;
+/SYSTEM;timer30;thirty. seconds;
+/SYSTEM;a1_org;A1,low;
+/SYSTEM;a1_red;A1,critical;
+/SYSTEM;a2_org;A2,low;
+/SYSTEM;a2_red;A2,critical;
+/SYSTEM;a3_org;A3,low;
+/SYSTEM;a3_red;A3,critical;
+/SYSTEM;a4_org;A4,low;
+/SYSTEM;a4_red;A4,critical;
+/SYSTEM;rssi_org;RF signal, low;
+/SYSTEM;rssi_red;RF signal, critical;
+/SYSTEM;swr_red;radio antenna defective;
+/SYSTEM;telemko;telemetry lost;
+/SYSTEM;telemok;telemetry recovered;
+/SYSTEM;trainko;trainer signal lost;
+/SYSTEM;trainok;trainer signal recovered;
+;gearup;gear!, up!;
+;geardn;gear!, down!;
+;flapup;flaps!, up!;
+;flapdn;flaps!, down!;
+;splrup;spoiler!, up!;
+;splrdn;spoiler!, down!;
+;trnon;trainer!, on!;
+;trnoff;trainer!, off!;
+;engoff;engine!, off!;
+;tohigh;too. high!;
+;tolow;too. low!;
+;lowbat;low. battery!;
+;crowon;crow!, on!;
+;crowof;crow!, off!;
+;siglow;rf. signal!, low!;
+;sigcrt;rf. signal!, critical!;
+;spdmod;high. speed. mode!, active;
+;thmmod;thermal. mode!, on;
+;nrmmod;normal. mode!, on;
+;lnding;landing. mode!, on;
+;acro;acro. mode!, on;
+;fm-1;flight. mode!, one;
+;fm-2;flight. mode!, two;
+;fm-3;flight. mode!, three;
+;fm-4;flight. mode!, four;
+;fm-5;flight. mode!, five;
+;fm-6;flight. mode!, six;
+;fm-7;flight. mode!, seven;
+;fm-8;flight. mode!, eight;
+;vrion;vario!, on;
+;vrioff;vario!, off;
+;fm-pwr;flight mode!, power;
+;fm-lnd;flight mode!, land;
+;fm-flt;flight mode!, float;
+;fm-spd;flight mode!, speed;
+;fm-fst;flight mode!, fast;
+;fm-nrm;flight mode!, normal;
+;fm-crs;flight mode!, cruise;
+;fm-acr;flight mode!, acro;
+;fm-rce;flight mode!, race;
+;fm-lch;flight mode!, launch;
+;fm-png;flight mode!, ping;
+;fm-thm;flight mode!, thermal;
+;fm-thml;flight mode!, thermal left;
+;fm-thmr;flight mode!, thermal right;
+// additional non-OpenTx derived/custom sounds from here
+;actnlimt;trainer, limited;NOT_AVAILABLE
+;actnflip;trainer, flip;NOT_AVAILABLE
+;actrnoff;trainer, oghf;NOT_AVAILABLE
+;cambrd;board camera;Board-Kamera
+;camruncm;run cam;run cam
+;camsw;camera, switch;Kamera, Schalter
+;camcntr;camera centered;NOT_AVAILABLE
+;camfix;camera, fixed;NOT_AVAILABLE
+;camman;camera, manual;NOT_AVAILABLE
+;camoff;camera, oghf;NOT_AVAILABLE
+;camon;camera, awn;NOT_AVAILABLE
+;gmblact;gimbal, active;NOT_AVAILABLE
+;gmbloff;gimbal, oghf;NOT_AVAILABLE
+;gmblon;gimbal, awn;NOT_AVAILABLE
+;gmlocfix;gimbal local control, fixed mode;NOT_AVAILABLE
+;gmlocfol;gimbal local control, follow mode;NOT_AVAILABLE
+;gmslave;gimbal slave control;NOT_AVAILABLE
+;acromd;acro mode;Modus acro
+;anglmd;angle mode;Modus-winkel
+;althld;altitude hold;Modus Höhe halten
+;atmtcmd;automatic mode;Modus automatisch
+;attmd;attitude mode;Modus-Einstellung
+;automd;auto mode;Modus auto
+;auttnmd;autotune mode;Modus auto-tune
+;clmbmd;climbing mode;Modus Klettern
+;cruzmd;cruise mode;Modus Kreuzfahrt
+;fbwa;fly by wire, A;Fliegen Sie durch Draht A
+;fbwb;fly by wire, B;Fliegen Sie durch Draht B
+;flapfll;flaps, full;Klappen ausgefahren
+;flaphlf;flaps, half;Klappen halfte
+;flapsup;flaps, up;Klappen eingefahren
+;flwmemd;follow me mode;Modus folgen mir
+;giddmd;guided mode;Modus geführt
+;gpsmd;GPS mode;Modus GPS
+;hirates;high rates;Wirft voll
+;hrznmd;horizon mode;Modus-Horizont
+;hvrmd;hover mode;Modus schweben
+;hybrdmd;hybrid mode;Modus hybrid
+;knfedgm;knife edge mix;Messer schneiden
+;lndgmd;land mode;Modus landen
+;lhtsoff;lights oghf;Lichten aus
+;lhtson;lights awn;Lichter an
+;lnchmd;launch mode;Modus abheben
+;lndgmd;landing mode;Modus Landung
+;loitr;loiter;bummeln
+;loitrmd;loiter mode;Modus bumeln
+;lowrates;low rates;Wirft niedrig
+;lwstcell;lowest cell;Zelle niedrigste
+;manmd;manual mode;Modus Handbuch
+;midrates;middle rates;Wirft mitten
+;osdsw;OSD Switch;OSD Schalter
+;poshld;position hold;Stellung halten
+;racemd;race mode;Modus Rennen
+;rtl;return to launch;Zurück zum Start
+;smokeoff;smoke off;Rauch aus
+;smokeon;smoke on;Rauchen auf
+;speedmd;speed mode;Modus Geschwindigkeit
+;sprtmd;sport mode;Modus Sport
+;stbloff;stabilization oghf;Stabilisierung aus
+;stblon;stabilization awn;Stabilisierung auf
+;stblzmd;stabilize mode;Modus Stabilisierung
+;thract;throttle active;Drossel aktiv
+;thrdis;throttle disabled;drosseln Deaktiviert
+;thrhold;throttle hold;drosseln halten
+;thrmlmd;thermal mode;Modus Thermisch
+;trngmd;training mode;Modus Ausbildung
