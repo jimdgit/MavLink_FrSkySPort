@@ -160,8 +160,8 @@ if [ -f "$SOURCE_FILE" ]; then				# Check Soure File
 		text_to_say[0]="$text_to_say_en"
 		text_to_say[1]="$text_to_say_de"
 	  #	text_to_say[2]="$text_to_say_pt"
-		# Check that varable contain data
-		if [ "$directory" != "Path" ] && [ -n "$directory" ] && [ -n "$file_name" ] && [ -n "${text_to_say[$i]}" ] && [ "${text_to_say[$i]}" != "NOT_AVAILABLE" ]; then
+		# Check that varable contain data // will allow a comment in data file
+		if [ "$directory" != "Path" ] && [ "$directory" != "//" ] && [ -n "$directory" ] && [ -n "$file_name" ] && [ -n "${text_to_say[$i]}" ] && [ "${text_to_say[$i]}" != "NOT_AVAILABLE" ]; then
 			echo "$DESTINATION_DIRECTORY_SOUNDS/$directory/$file_name.wav\t|\t${text_to_say[$i]}"
 
 			# Check and Create Folder

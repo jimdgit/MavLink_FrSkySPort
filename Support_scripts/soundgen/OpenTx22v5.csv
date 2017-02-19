@@ -300,6 +300,7 @@ Path;FileName;EN;DE
 ;fm-thm;flight mode!, thermal;Thermik-Modus ist aktiviert
 ;fm-thl;flight mode!, thermal left;Thermal links ist aktiviert
 ;fm-thr;flight mode!, thermal right;Thermal rechts ist aktiviert
+// additional non-OpenTx derived/custom sounds from here
 ;actnlimt;trainer, limited;NOT_AVAILABLE
 ;actnflip;trainer, flip;NOT_AVAILABLE
 ;actrnoff;trainer, oghf;NOT_AVAILABLE
