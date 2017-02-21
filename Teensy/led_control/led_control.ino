@@ -677,15 +677,21 @@ RGBCOLOR testColors[]={
   {255,0,0},
   {0,255,0},
   {0,0,255},
+  {255,255,0},
+   {255,255,255},
   {15,0,0},
   {0,15,0},
   {0,0,15},
+  {15,15,0},
+  {15,15,15},
 };
 #define MAX_TEST_COLOR sizeof(testColors)/sizeof(RGBCOLOR)
 //#####################################################################################################
 //### DEFAULT FRONT ARM LED MODE (CONST-RED)                                                        ###
 //#####################################################################################################
 void front_arms(int STATUS, float dim) {
+  int index;
+
     if( millis() - timer1 > 1000 )
      {
       ++color_index;
@@ -701,6 +707,18 @@ void front_arms(int STATUS, float dim) {
                     leds[i][j] = CRGB(testColors[color_index].r
                                        ,testColors[color_index].g 
                                        , testColors[color_index].b);
+                      index = color_index + 1;
+                      if( index == MAX_TEST_COLOR )
+                         index = 0;                 
+                      leds[i][1] = CRGB(testColors[index].r
+                                       ,testColors[index].g 
+                                      , testColors[index].b);    
+                       ++index;
+                      if( index == MAX_TEST_COLOR )
+                         index = 0;                 
+                       leds[i][2] = CRGB(testColors[index].r
+                                       ,testColors[index].g 
+                                      , testColors[index].b);                                       
                 }
             }
         }
